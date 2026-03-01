@@ -123,6 +123,12 @@ const Contact = () => {
           link: 'https://www.google.com/maps/place/16+Ockerse+St,+Krugersdorp,+Johannesburg,+1739/@-26.1032711,27.7724528,17z/data=!3m1!4b1!4m6!3m5!1s0x1e9599a282317f51:0x600719720b7afb48!8m2!3d-26.1032711!4d27.7750277!16s%2Fg%2F11rggjbdnx?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D',
           action: 'View Map'
         },
+         {
+          label: 'Impilo Wellness 360',
+          value: '06 Penny Street,Mindalore,Krugersdorp,1739',
+          link: 'https://www.google.com/maps/place/06+Penny+St,+Mindalore,+Krugersdorp,+1754/@-26.1419624,27.8279702,17z/data=!3m1!4b1!4m6!3m5!1s0x1e9598b39e9caf79:0x5b6b2a2b7fa3f946!8m2!3d-26.1419624!4d27.8279702!16s%2Fg%2F11pv3hbtg4?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D',
+          action: 'View Map'
+        },
 
       ]
     }

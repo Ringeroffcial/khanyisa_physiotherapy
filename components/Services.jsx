@@ -14,27 +14,27 @@ const Services = () => {
         "Postural correction",
         "Muscle strains and sprains"
       ],
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
+      image: "https://media.istockphoto.com/id/1337114047/photo/3d-illustration-of-the-multifidus-muscles-on-skeleton.jpg?s=1024x1024&w=is&k=20&c=IZ6RAzi3MFXgpTBF-cQTQGaghjpLeFfseZVSN4_w4M0=",
       alt: "Physiotherapist treating back pain",
       color: "service-blue"
     },
-    {
-      id: 2,
-      title: "Chest Conditions",
-      description: "Specialized respiratory care for pulmonary conditions and recovery.",
-      details: [
-        "Pneumonia management and recovery",
-        "Lower Respiratory Tract Infections (LRTI)",
-        "Tuberculosis (TB) rehabilitation",
-        "Cardiopulmonary congestion management",
-        "Breathing exercises and techniques",
-        "Airway clearance procedures"
-      ],
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop",
-      alt: "Respiratory physiotherapy treatment",
-      color: "service-green",
-      reverse: true
-    },
+{
+  id: 2,
+  title: "Chest Conditions",
+  description: "Specialized respiratory care for pulmonary conditions and recovery.",
+  details: [
+    "Pneumonia management and recovery",
+    "Lower Respiratory Tract Infections (LRTI)",
+    "Tuberculosis (TB) rehabilitation",
+    "Cardiopulmonary congestion management",
+    "Breathing exercises and techniques",
+    "Airway clearance procedures"
+  ],
+  image: "https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  alt: "Clean medical lungs anatomy illustration",
+  color: "service-green",
+  reverse: true
+},
     {
       id: 3,
       title: "Fracture Rehabilitation",
@@ -47,7 +47,7 @@ const Services = () => {
         "Joint mobilization techniques",
         "Return to work/sports programs"
       ],
-      image: "https://tse4.mm.bing.net/th/id/OIP.XpfMI7CElrgNNX6tCCRv8QHaLS?rs=1&pid=ImgDetMain&o=7&rm=3",
+      image: "https://images.unsplash.com/photo-1564725075388-cc8338732289?q=80&w=1271&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       alt: "Fracture rehabilitation with crutches training",
       color: "service-purple"
     },
@@ -80,7 +80,7 @@ const Services = () => {
         "Osteoporosis prevention and management",
         "Breast cancer rehabilitation"
       ],
-      image: "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1680987218595-2d514938a72c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       alt: "Women's health physiotherapy",
       color: "service-pink"
     }
@@ -141,10 +141,6 @@ const Services = () => {
                       ))}
                     </ul>
                   </div>
-                  
-                  <button className="service-cta">
-                    Learn More
-                  </button>
                 </div>
               </div>
             </div>
