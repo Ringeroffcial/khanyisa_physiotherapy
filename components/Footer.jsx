@@ -29,8 +29,8 @@ const Footer = () => {
   ];
 
   const workingHours = [
-    { day: 'Monday - Friday', time: '8:00 AM - 16:00 PM' },
-    { day: 'Saturday', time: '9:00 AM - 2:00 PM' },
+    { day: 'Monday - Friday', time: '8:00 AM - 18:00 PM' },
+    { day: 'Saturday', time: '9:00 AM - 14:00 PM' },
     { day: 'Sunday', time: 'Emergency Only' },
     { day: 'Public Holidays', time: 'By Appointment' }
   ];

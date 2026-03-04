@@ -38,7 +38,7 @@ const Contact = () => {
         message: ''
       });
       
-      // Clear message after 5 seconds
+      
       setTimeout(() => setSubmitMessage(''), 5000);
     }, 1500);
   };
@@ -53,44 +53,18 @@ const Contact = () => {
       details: [
         {
           label: 'Primary WhatsApp',
-          value: '+27 78 957 9310',
-          link: 'https://wa.me/27123456789?text=Hello%20Khanyisa%20Physiotherapy%2C%20I%20would%20like%20to%20book%20an%20appointment',
+          value: '+27789579310',
+          link: 'https://wa.me/27789579310?text=Hello%20Khanyisa%20Physiotherapy%2C%20I%20would%20like%20to%20book%20an%20appointment',
           action: 'Chat Now'
         },
         {
           label: 'Emergency WhatsApp',
-          value: '+27 78 957 9310',
-          link: 'https://wa.me/27876543210?text=EMERGENCY%3A%20I%20need%20urgent%20physiotherapy%20assistance',
+          value: '+27837204431',
+          link: 'https://wa.me/27837204431?text=EMERGENCY%3A%20I%20need%20urgent%20physiotherapy%20assistance',
           action: 'Emergency Chat'
         }
       ]
     },
-    // {
-    //   id: 'phone',
-    //   title: 'Call Us',
-    //   icon: '📞',
-    //   color: 'phone',
-    //   details: [
-    //     {
-    //       label: 'Landline',
-    //       value: '(011) 123 4567',
-    //       link: 'tel:+27111234567',
-    //       action: 'Call Now'
-    //     },
-    //     {
-    //       label: 'Mobile',
-    //       value: '071 234 5678',
-    //       link: 'tel:+27712345678',
-    //       action: 'Call Now'
-    //     },
-    //     {
-    //       label: 'Emergency Line',
-    //       value: '(011) 987 6543',
-    //       link: 'tel:+27119876543',
-    //       action: 'Emergency Call'
-    //     }
-    //   ]
-    // },
     {
       id: 'email',
       title: 'Email Us',

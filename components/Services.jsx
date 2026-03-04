@@ -14,7 +14,7 @@ const Services = () => {
         "Postural correction",
         "Muscle strains and sprains"
       ],
-      image: "https://media.istockphoto.com/id/1337114047/photo/3d-illustration-of-the-multifidus-muscles-on-skeleton.jpg?s=1024x1024&w=is&k=20&c=IZ6RAzi3MFXgpTBF-cQTQGaghjpLeFfseZVSN4_w4M0=",
+      image: "https://plus.unsplash.com/premium_photo-1677850090629-b4933ee217ab?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       alt: "Physiotherapist treating back pain",
       color: "service-blue"
     },
