@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 /* CSS Reset & Base */
@@ -15,11 +14,11 @@ html {
 
 /* Color Variables - Refreshed Professional Healthcare Theme */
 :root {
-  --primary-blue: #2b6ef0;
-  --primary-dark: #1a4fc4;
-  --primary-light: #7ca9ff;
-  --primary-gradient: linear-gradient(145deg, #2b6ef0 0%, #1a4fc4 100%);
-  --primary-semi-transparent: rgba(43, 110, 240, 0.08);
+  --primary-turquoise-blue: #2b7a9e;
+  --primary-dark: #1a5c7a;
+  --primary-light: #7fb9d1;
+  --primary-gradient: linear-gradient(145deg, #2b7a9e 0%, #1a5c7a 100%);
+  --primary-semi-transparent: rgba(43, 122, 158, 0.08);
   
   --white: #ffffff;
   --off-white: #f9fcff;
@@ -211,7 +210,7 @@ nav ul {
 
 .nav-link:hover {
   background: var(--primary-semi-transparent);
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
   transform: translateY(-1px);
 }
 
@@ -232,7 +231,7 @@ nav ul {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
   width: 42px;
   height: 42px;
   border-radius: var(--radius-md);
@@ -295,7 +294,7 @@ nav ul {
 }
 
 .hero-title .highlight {
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
   position: relative;
   display: inline-block;
 }
@@ -343,7 +342,7 @@ nav ul {
 .stat-number {
   font-size: 2.5rem;
   font-weight: 800;
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
   margin-bottom: 0.5rem;
   display: block;
   line-height: 1;
@@ -411,12 +410,12 @@ nav ul {
 
 .btn-secondary {
   background: transparent;
-  color: var(--primary-blue);
-  border: 2px solid var(--primary-blue);
+  color: var(--primary-turquoise-blue);
+  border: 2px solid var(--primary-turquoise-blue);
 }
 
 .btn-secondary:hover {
-  background: var(--primary-blue);
+  background: var(--primary-turquoise-blue);
   color: var(--white);
   transform: translateY(-2px);
 }
@@ -454,7 +453,7 @@ nav ul {
 }
 
 .services-header h2 span {
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
 }
 
 .services-header p {
@@ -517,7 +516,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--primary-blue);
+  background: var(--primary-turquoise-blue);
   color: var(--white);
   font-weight: 700;
   font-size: 1.35rem;
@@ -546,7 +545,7 @@ nav ul {
   align-items: center;
   gap: 0.5rem;
   background: var(--primary-semi-transparent);
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
   padding: 0.4rem 1rem;
   border-radius: var(--radius-full);
   font-size: 0.875rem;
@@ -604,8 +603,8 @@ nav ul {
   margin-top: auto;
   align-self: flex-start;
   background: transparent;
-  color: var(--primary-blue);
-  border: 2px solid var(--primary-blue);
+  color: var(--primary-turquoise-blue);
+  border: 2px solid var(--primary-turquoise-blue);
   padding: 0.75rem 1.75rem;
   font-weight: 600;
   border-radius: var(--radius-full);
@@ -615,7 +614,7 @@ nav ul {
 }
 
 .service-cta:hover {
-  background: var(--primary-blue);
+  background: var(--primary-turquoise-blue);
   color: var(--white);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
@@ -672,7 +671,7 @@ nav ul {
 
 .cta-button {
   background: var(--white);
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
   border: none;
   padding: 1rem 2.5rem;
   font-size: 1rem;
@@ -714,7 +713,7 @@ nav ul {
   align-items: center;
   gap: 0.5rem;
   background: var(--primary-semi-transparent);
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
   padding: 0.5rem 1.5rem;
   border-radius: var(--radius-full);
   font-weight: 600;
@@ -736,7 +735,7 @@ nav ul {
 }
 
 .contact-header h2 span {
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
 }
 
 .contact-header p {
@@ -783,7 +782,7 @@ nav ul {
 }
 
 .contact-card.email {
-  border-left: 4px solid var(--primary-blue);
+  border-left: 4px solid var(--primary-turquoise-blue);
 }
 
 .contact-card.address {
@@ -852,7 +851,7 @@ nav ul {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: var(--primary-blue);
+  background: var(--primary-turquoise-blue);
   color: var(--white);
   padding: 0.6rem 1.2rem;
   border-radius: var(--radius-md);
@@ -1017,7 +1016,7 @@ nav ul {
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: var(--primary-blue);
+  border-color: var(--primary-turquoise-blue);
   box-shadow: 0 0 0 4px var(--primary-semi-transparent);
   background-color: var(--white);
 }
@@ -1128,9 +1127,9 @@ nav ul {
 
 .alternative-button:hover {
   background: var(--primary-semi-transparent);
-  border-color: var(--primary-blue);
+  border-color: var(--primary-turquoise-blue);
   transform: translateY(-2px);
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
 }
 
 /* Map Section */
@@ -1169,7 +1168,7 @@ nav ul {
 .map-icon {
   font-size: 2.5rem;
   margin-bottom: var(--spacing-sm);
-  color: var(--primary-blue);
+  color: var(--primary-turquoise-blue);
 }
 
 .map-title {
@@ -1412,7 +1411,7 @@ nav ul {
 }
 
 .back-to-top:hover {
-  background: var(--primary-blue);
+  background: var(--primary-turquoise-blue);
   transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
 }
@@ -1636,7 +1635,7 @@ nav ul {
 
 /* Accessibility */
 :focus-visible {
-  outline: 3px solid var(--primary-blue);
+  outline: 3px solid var(--primary-turquoise-blue);
   outline-offset: 3px;
 }
 

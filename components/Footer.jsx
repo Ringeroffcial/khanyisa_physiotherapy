@@ -241,7 +241,7 @@ const Footer = () => {
       </div>
 
       <a
-        href="https://wa.me/+27 78 957 9310?text=Hello%20Khanyisa%20Physiotherapy%2C%20I%20would%20like%20to%20book%20an%20appointment"
+        href="https://wa.me/+27789579310?text=Hello%20Khanyisa%20Physiotherapy%2C%20I%20would%20like%20to%20book%20an%20appointment"
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-float"
